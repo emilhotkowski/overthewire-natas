@@ -1,0 +1,20 @@
+We are given a source code :
+
+if($key != "") {
+    passthru("grep -i $key dictionary.txt");
+}
+
+we can see that there is a direct injection of our input. After checking -i parameter
+-i, --ignore-case
+             Perform case insensitive matching.  By default, grep is case sensitive.
+... it does nothing for us.
+
+Let's try to grep some linux important files like : /etc/passwd
+Nothing. So let's try to use pipe operator, which allow us to add extra commads.
+
+When we put "| find * #" we can see files in current directory. So we can pretty much do anything on the server.
+
+And there was a special file : | cat/etc/natas_webpass/natas10 #
+That had a password for next level :)
+
+nOpp1igQAkUzaI1GUUjzn1bFVj7xCNzu

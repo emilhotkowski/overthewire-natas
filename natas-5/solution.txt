@@ -1,0 +1,7 @@
+"You are not logged in" 
+Logging often times is associated with cookies. Quick look shows : 
+loggedin	0	natas5.natas.labs.overthewire.org	/	Session	9 B			
+
+change to 1 and boom :)
+
+Access granted. The password for natas6 is aGoY4q2Dc6MgDq4oL4YtoKtyAg9PeHa1

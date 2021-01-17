@@ -1,0 +1,4 @@
+We can see that there are sources other than page. They weren't blocked in .htaccess file or anything.
+That's how one finds user.txt 
+
+sJIJNW6ucpu6HPZ1ZAchaDtwd7oGrD14

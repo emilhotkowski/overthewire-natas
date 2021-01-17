@@ -1,0 +1,17 @@
+" You are visiting from "" while authorized users should come only from "http://natas5.natas.labs.overthewire.org/" "
+Http has many different headers, including Referer one which tells browser where a request came from.
+
+The *Referer* request header contains the address of the page making the request. W
+hen following a link, this would be the url of the page containing the link. 
+
+What about Origin header?
+The Origin request header indicates where a fetch originates from. 
+It doesn't include any path information, but only the server name.
+ It is sent with CORS requests, as well as with POST requests. 
+It is similar to the Referer header, but, unlike this header, it doesn't disclose the whole path.
+
+curl -u natas4:Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ 
+-H "Referer: http://natas5.natas.labs.overthewire.org/"
+-X GET http://natas4.natas.labs.overthewire.org
+
+Password: iX6IOfmpN7AYOQGPwtn3fXpbaJVJcHfq

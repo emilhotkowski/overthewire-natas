@@ -1,0 +1,14 @@
+We were given secret and function that encodes it.
+$encodedSecret = "3d3d516343746d4d6d6c315669563362";
+
+function encodeSecret($secret) {
+    return bin2hex(strrev(base64_encode($secret)));
+}
+
+just put evertying in revers
+
+function decodeSecret($secret) {
+    return base64_decode(strrev(hex2bin($secret)));
+}
+
+Access granted. The password for natas9 is W0mMhUcRRnG8dcghE4qvk3JA9lGt8nDl

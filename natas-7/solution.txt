@@ -1,0 +1,7 @@
+There is a hint : <!-- hint: password for webuser natas8 is in /etc/natas_webpass/natas8 -->
+
+We see how URL works : http://natas7.natas.labs.overthewire.org/index.php?page=home
+it might seem that we are given files directly from server, we might try tu put path into the query
+
+And it worked ;)
+DBfUBfqQG69KvJvJ1iAbMoIpwSNQ9bWe
